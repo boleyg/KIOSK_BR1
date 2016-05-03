@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Kiosk Interface</title>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		
+<link rel="stylesheet" href="kiosk.css">
+</head>
+
+<body>
+	
+	<div class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col s4"><img src="images/weather.svg" class="weather" width="100px"></div>
+			<div class="col s4"><a href="homepage.html"><img src="images/business_brutus.svg" class="brutus" width="100px">BUSINESS</a></div>
+			<div class="col s4"><a href="homepage.html"><img src="images/business_brutus.svg" class="brutus" width="100px">BUSINESS</a></div>
+		</div>
+		
+	</div>
+	
+	<div class="searchbar">
+   	 <div class="search"><form action="action_page.php">
+    				  <input id="searchbar" type="text" name="search" placeholder="Search">
+   		 		 </form>
+ 			</div>
+	</div>
+</div>
+</div>
+
+
+	<div class="homepage">
+		<div class="container">
+			<div class="row gutter">
+				<div class="col s3">
+					
+				</div>				
+							
+	<footer>
+		<div class="container">
+		<ul>
+			<li>CONTACT</li>
+			<li>|</li>
+			<li>SITEMAP</li>
+			<li>|</li>
+			<li>JCI WEBSITE</li>
+		</ul>
+	</div>
+	</footer>
+	<div class="overlay"></div>
+	<div class="announcement container">
+		<div class="announcement header"><h3>NEW ANNOUNCEMENT</h3></div>
+		<form action="action_page.php">
+			<div class="row">
+				<div class="col s12">
+					<label for="datetitle"><h4 class="announcement">Date</h4></label>
+					<input id="datetitle" type="text" name="datetitle" placeholder="Announcement Date">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<label for="datetitle"><h4 class="announcement">Title</h4></label>
+					<input id="datetitle" type="text" name="datetitle" placeholder="Announcement Title">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<label for="datetitle"><h4 class="announcement">Description</h4></label>
+					<textarea name="datedescription"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 push">
+					<a href='#' class="button2 close">CANCEL</a>
+					<a href='#' class="button3">POST</a>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jci-br1.js"></script>	
+	<script>
+	$(".popup").click(function() {
+		$(".overlay,.announcement.container").fadeIn('slow');
+		return false;
+	});
+	$(".close").click(function() {
+		$(".overlay,.announcement.container").fadeOut('slow');
+		return false;
+	});
+	
+	</script>	
+</body>
