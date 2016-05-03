@@ -323,6 +323,7 @@ footer {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 .contentlistbox2 {
@@ -334,6 +335,7 @@ footer {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 h3.boxtext {
@@ -345,6 +347,7 @@ h3.boxtext {
 	padding-top:20px;
 	
 	}
+<<<<<<< HEAD
 .scroll {
 	background-color: #ba122b;
 	height: 35px;
@@ -400,3 +403,22 @@ h3.boxtext {
 	 }
 	}
 	</style>
+=======
+<<<<<<< HEAD
+
+div.scroll {
+    background-color: white;
+    width: 580px;
+    height: 200px;
+    overflow: scroll;
+	direction:rtl;
+}
+
+#scroll div{
+    direction:ltr;
+}
+
+=======
+>>>>>>> 1e05e5f78482cda18e868fda4764e26012eaabac
+>>>>>>> 483028c657dc29e5eb0b3d2ec61bc1977af9160b
+>>>>>>> 2b35eaa15d7cc001516f728a80e36b827d022bfd
