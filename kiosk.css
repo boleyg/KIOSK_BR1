@@ -1,22 +1,26 @@
 .library h3 {
-	font-family: arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 	border-bottom: solid;
 	border-width: 1px;
 	}
+body {
+	margin: 0;
+}
 h1 {
-	font-family: arial, sans-serif;
-	font-weight: normal;	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;	
 }
 h2 {
-	font-family: arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 }
 h3 {
-	font-family: arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 }
 p {
-	font-family: arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .button {
 	background: black;
@@ -39,13 +43,29 @@ p {
 	padding: 5px;
 	border-radius: 5px;
 }
+.container {
+	width: 858px;
+	margin: 0 auto;
+}
+header {
+	background: black;
+	padding: 8px;
+}
+header p {
+	color: white;
+	text-align: right;
+}
+header h2 {
+	color: white;
+	display: inline-block;
+	margin: 0;
+	font-size: 45px;
+}
+header.brutus {
+	display: inline-block;
+}
 
-<<<<<<< HEAD
 /*CSS Grid*/
-			* {
-				box-sizing:border-box;
-			}
-
 			.row:after {
 				content:"";
 				display:table;
