@@ -1,6 +1,6 @@
 .library h3 {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
 	border-bottom: solid;
 	border-width: 1px;
 	}
@@ -345,15 +345,12 @@ h3.boxtext {
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
+	font-weight: 300;
 	
 	}
-<<<<<<< HEAD
-.scroll {
+.scrolls {
 	background-color: #ba122b;
 	height: 35px;
-}
-.bold {
-	font-weight: 600;
 }
 
 /*Scrolling text styles*/
@@ -403,8 +400,6 @@ h3.boxtext {
 	 }
 	}
 	</style>
-=======
-<<<<<<< HEAD
 
 div.scroll {
     background-color: white;
@@ -415,10 +410,6 @@ div.scroll {
 }
 
 #scroll div{
-    direction:ltr;
+	direction:ltr;
 }
 
-=======
->>>>>>> 1e05e5f78482cda18e868fda4764e26012eaabac
->>>>>>> 483028c657dc29e5eb0b3d2ec61bc1977af9160b
->>>>>>> 2b35eaa15d7cc001516f728a80e36b827d022bfd
