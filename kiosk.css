@@ -447,6 +447,136 @@ h3.boxtext {
 	 }
 	}
 	</style>
+	
+/*slideshow styles*/
+	#contentWrapper {
+	
+	height: 400px;
+	
+	width: 858px;
+	
+	overflow: hidden;
+	
+	margin: 10% auto;
+
+	padding: 0px;
+
+	background-color: white;
+	
+	}
+
+	#slideWrapper {
+
+	height: 400px;
+
+	width: 858px;
+
+	overflow: hidden;
+	
+	margin: 0px;
+
+	padding: 0px;
+
+	background-color: white;
+
+	}
+
+	#slideReel {
+
+	height: 400px;
+
+	width: 2574px;
+	
+	margin: 0px;
+
+	padding: 0px;
+
+	background-color: white;
+
+	-webkit-animation-play-state: running;
+
+	-webkit-animation-name: slideIt;
+
+	-webkit-animation-duration: 20s;
+
+	-webkit-transform-origin: 50% 50%;
+	
+	-webkit-animation-iteration-count: infinite;
+
+	-webkit-animation-timing-function: ease-in-out;
+	
+	}
+
+	/* Resume the slideshow
+	#slideReel:hover{
+	    margin-left:-400px;
+	}
+	*/
+	
+ 
+	
+	.slide {
+	
+	float: left;
+	
+	height: 400px;
+	
+	width: 858px;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	background-color: white;
+	
+	}
+	
+	
+	
+	 @-webkit-keyframes slideIt {
+	
+	
+	
+	 0% {
+	
+	-webkit-transform: translate(0px);
+	
+	}
+	
+	 50% {
+	
+	-webkit-transform: translate(-858px);
+	
+	}
+	
+	 100% {
+	
+	-webkit-transform: translate(-1716px);
+	
+	}
+	
+	}
+	
+	#slide1 {
+	
+	background-image: url(images/statue.jpg);
+	
+	}
+	
+	#slide2 {
+	
+	background-image: url(images/flite.jpg);
+	
+	}
+	
+	#slide3 {
+	
+	background-image: url(images/sign.jpg);
+	
+	}
+		
+	
+	
 
 div.scroll {
     background-color: white;
