@@ -1,32 +1,38 @@
 .library h3 {
-	font-family: arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
 	border-bottom: solid;
 	border-width: 1px;
 	}
+body {
+	margin: 0;
+}
 h1 {
-	font-family: arial, sans-serif;
-	font-weight: normal;	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;	
 }
 h2 {
-	font-family: arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 }
 h3 {
-	font-family: arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 }
 p {
-	font-family: arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .button {
 	background: black;
 	color: white;
-	padding: 10px 75px;
+	padding: 20px 150px;
 	border: solid;
 	border-width: 1px;
 	border-color: white;
 	border-radius: 5px;
 	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
 	
 }
 .icon {
@@ -36,11 +42,44 @@ p {
 }
 .weather {
 	background-color: black;
-	padding: 5px;
+	padding-top: 8px;
+	padding-left: 5px;
 	border-radius: 5px;
 }
 .container {
-	background: #E1E1E1;
+	width: 858px;
+	margin: 0 auto;
+	border: solid;
+	border-width: .5px;
+}
+header {
+	background: black;
+	padding: 20px 10px;
+}
+header p {
+	color: white;
+	text-align: right;
+	margin: 0;
+}
+header h2 {
+	color: white;
+	display: inline-block;
+	margin: 0;
+	font-size: 45px;
+}
+header h1 {
+	color: white;
+	font-size: 22px;
+	margin: 0;
+	display: inline-block;
+	margin-top: 21px;
+}
+header.brutus {
+	display: inline-block;
+}
+.brut {
+	background-color: #f2f2f2;
+	padding: 20px 0;
 }
 
 a:link {
@@ -51,13 +90,44 @@ a:link {
 a:visited {
     color: black;
 }
+.homepage.icon {
+	margin: 0 auto;
+}
+.icon.one {
+	margin: 0 22%;
+}
+.home p {
+	text-align: center;
+	color: #ba122b;
+	margin: 0;
+}
+.brutus.one {
+	margin: 0 42%;
 
+}
+footer {
+	background-color: black;
+	padding: 30px;
+}
+.row.home {
+	margin: 50px 0;
+}
+.de {
+	background-color: black;
+	padding: 20px;
+}
+.de p {
+	color: white;
+	margin: 0;
+}
+.cal p {
+	text-align: right;
+}
+.icon.ev {
+	margin: 0 86.8%;
+}
 
 /*CSS Grid*/
-			* {
-				box-sizing:border-box;
-			}
-
 			.row:after {
 				content:"";
 				display:table;
@@ -253,6 +323,7 @@ a:visited {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 .contentlistbox2 {
@@ -264,6 +335,7 @@ a:visited {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 h3.boxtext {
@@ -273,6 +345,201 @@ h3.boxtext {
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
+	font-weight: 300;
 	
 	}
->>>>>>> 1e05e5f78482cda18e868fda4764e26012eaabac
+.scrolls {
+	background-color: #ba122b;
+	height: 35px;
+}
+
+/*Scrolling text styles*/
+	<style style="text/css">
+	.example1 {
+	 height: 50px;	
+	 overflow: hidden;
+	 position: relative;
+	 background-color: #ba122b;
+	}
+	.example1 h3 {
+	 position: absolute;
+	 color: white;
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 line-height: 40px;
+	 text-align: center;
+	 /* Starting position */
+	 -moz-transform:translateX(100%);
+	 -webkit-transform:translateX(100%);	
+	 transform:translateX(100%);
+	 /* Apply animation to this element */	
+	 -moz-animation: example1 15s linear infinite;
+	 -webkit-animation: example1 15s linear infinite;
+	 animation: example1 15s linear infinite;
+	}
+	/* Move it (define the animation) */
+	@-moz-keyframes example1 {
+	 0%   { -moz-transform: translateX(100%); }
+	 100% { -moz-transform: translateX(-100%); }
+	}
+	@-webkit-keyframes example1 {
+	 0%   { -webkit-transform: translateX(100%); }
+	 100% { -webkit-transform: translateX(-100%); }
+	}
+	@keyframes example1 {
+	 0%   { 
+	 -moz-transform: translateX(100%); /* Firefox bug fix */
+	 -webkit-transform: translateX(100%); /* Firefox bug fix */
+	 transform: translateX(100%); 		
+	 }
+	 100% { 
+	 -moz-transform: translateX(-100%); /* Firefox bug fix */
+	 -webkit-transform: translateX(-100%); /* Firefox bug fix */
+	 transform: translateX(-100%); 
+	 }
+	}
+	</style>
+	
+/*slideshow styles*/
+	#contentWrapper {
+	
+	height: 400px;
+	
+	width: 858px;
+	
+	overflow: hidden;
+	
+	margin: 10% auto;
+
+	padding: 0px;
+
+	background-color: white;
+	
+	}
+
+	#slideWrapper {
+
+	height: 400px;
+
+	width: 858px;
+
+	overflow: hidden;
+	
+	margin: 0px;
+
+	padding: 0px;
+
+	background-color: white;
+
+	}
+
+	#slideReel {
+
+	height: 400px;
+
+	width: 2574px;
+	
+	margin: 0px;
+
+	padding: 0px;
+
+	background-color: white;
+
+	-webkit-animation-play-state: running;
+
+	-webkit-animation-name: slideIt;
+
+	-webkit-animation-duration: 20s;
+
+	-webkit-transform-origin: 50% 50%;
+	
+	-webkit-animation-iteration-count: infinite;
+
+	-webkit-animation-timing-function: ease-in-out;
+	
+	}
+
+	/* Resume the slideshow
+	#slideReel:hover{
+	    margin-left:-400px;
+	}
+	*/
+	
+ 
+	
+	.slide {
+	
+	float: left;
+	
+	height: 400px;
+	
+	width: 858px;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	background-color: white;
+	
+	}
+	
+	
+	
+	 @-webkit-keyframes slideIt {
+	
+	
+	
+	 0% {
+	
+	-webkit-transform: translate(0px);
+	
+	}
+	
+	 50% {
+	
+	-webkit-transform: translate(-858px);
+	
+	}
+	
+	 100% {
+	
+	-webkit-transform: translate(-1716px);
+	
+	}
+	
+	}
+	
+	#slide1 {
+	
+	background-image: url(images/statue.jpg);
+	
+	}
+	
+	#slide2 {
+	
+	background-image: url(images/flite.jpg);
+	
+	}
+	
+	#slide3 {
+	
+	background-image: url(images/sign.jpg);
+	
+	}
+		
+	
+	
+
+div.scroll {
+    background-color: white;
+    width: 580px;
+    height: 200px;
+    overflow: scroll;
+	direction:rtl;
+}
+
+#scroll div{
+	direction:ltr;
+}
+
