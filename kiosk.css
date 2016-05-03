@@ -44,6 +44,7 @@ p {
 	border-radius: 5px;
 }
 .container {
+<<<<<<< HEAD
 	width: 858px;
 	margin: 0 auto;
 }
@@ -64,6 +65,20 @@ header h2 {
 header.brutus {
 	display: inline-block;
 }
+=======
+	background: #E1E1E1;
+}
+
+a:link {
+    color: black;
+	text-decoration:none;
+}
+
+a:visited {
+    color: black;
+}
+
+>>>>>>> 483028c657dc29e5eb0b3d2ec61bc1977af9160b
 
 /*CSS Grid*/
 			.row:after {
@@ -252,7 +267,7 @@ header.brutus {
 					padding: 0 2%;
 				}
 			}
-=======
+
 .contentlistbox1 {
 		width: 551.43px;
 		height:53px;
