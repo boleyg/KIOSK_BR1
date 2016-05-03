@@ -275,14 +275,13 @@ h3.boxtext {
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
-	
-	}
-<<<<<<< HEAD
+}
+
 
 div.scroll {
     background-color: white;
     width: 580px;
-    height: 200px;
+    height: 300px;
     overflow: scroll;
 	direction:rtl;
 }
@@ -291,6 +290,3 @@ div.scroll {
     direction:ltr;
 }
 
-=======
->>>>>>> 1e05e5f78482cda18e868fda4764e26012eaabac
->>>>>>> 483028c657dc29e5eb0b3d2ec61bc1977af9160b
