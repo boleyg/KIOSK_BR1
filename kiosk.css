@@ -48,6 +48,7 @@ p {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 .contentlistbox2 {
@@ -59,6 +60,7 @@ p {
 		border-top-right-radius: 8px;
 		border-bottom-right-radius: 8px;
 		margin-bottom:0;
+		text-align:left;
 	}
 	
 h3.boxtext {
@@ -70,3 +72,16 @@ h3.boxtext {
 	padding-top:20px;
 	
 	}
+
+div.scroll {
+    background-color: white;
+    width: 580px;
+    height: 200px;
+    overflow: scroll;
+	direction:rtl;
+}
+
+#scroll div{
+    direction:ltr;
+}
+
