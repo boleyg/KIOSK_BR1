@@ -40,6 +40,7 @@ p {
 	border-radius: 5px;
 }
 
+<<<<<<< HEAD
 /*CSS Grid*/
 			* {
 				box-sizing:border-box;
@@ -231,3 +232,35 @@ p {
 					padding: 0 2%;
 				}
 			}
+=======
+.contentlistbox1 {
+		width: 551.43px;
+		height:53px;
+		margin: 0px 15px 10px 0px;
+		background-color:#BA122B;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		margin-bottom:0;
+	}
+	
+.contentlistbox2 {
+		width: 551.43px;
+		height:53px;
+		margin: 0px 15px 10px 0px;
+		background-color:#BA122B;
+		opacity: 0.6;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		margin-bottom:0;
+	}
+	
+h3.boxtext {
+	font-size:16px;
+	margin-left:10px;
+	margin-top:0;
+	color:white;
+	border-bottom: none;
+	padding-top:20px;
+	
+	}
+>>>>>>> 1e05e5f78482cda18e868fda4764e26012eaabac
