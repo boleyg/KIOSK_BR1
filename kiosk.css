@@ -209,7 +209,20 @@ footer {
 p.academics {
 	margin-right:20%;
 }
+.attractionbrutus {
+	z-index:1000;
+	position:absolute;
+	margin-right:35%;
+}
+img.attractionbrutus {
+	margin-top:25%;
+	margin-left:30%;
+}
 
+.attractionpic {
+	z-index:100;
+	position:absolute;
+}
 
 /*CSS Grid*/
 			.row:after {
