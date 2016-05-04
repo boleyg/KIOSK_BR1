@@ -349,6 +349,14 @@ footer {
 		margin-bottom:0;
 		text-align:left;
 	}
+
+	div#short.contentlistbox1 {
+		width:375px;
+	}
+	
+	div#short.contentlistbox2 {
+		width:375px;
+	}
 	
 h3.boxtext {
 	font-size:16px;
@@ -672,3 +680,27 @@ display: block;
 float: left;
 }
 
+div#directory {
+background-color: white;
+width: 400px;
+height: 1000px;
+overflow: scroll;
+direction:rtl;
+margin-bottom: 50px;
+margin-right: 0px;
+margin-left: 15px;
+
+}
+
+img#nic {
+	display:inline-block;
+}
+
+div#nic.row {
+	text-align:center;
+	padding-right:15px;
+}
+
+div.col.s6.push {
+	text-align:center;
+}
