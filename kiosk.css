@@ -638,3 +638,37 @@ h3.schedule {
 	padding-top:10px;
 }
 
+.button-pointy, button.button-pointy {
+background-image:url('images/left-button.png');
+background-color: black;
+color: white;
+background-size: 100% 50%;
+background-repeat: no-repeat;
+background-position:center;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size:50px;
+text-decoration: none;
+border: none;
+padding: 50px 110px;
+display: block;
+float: right;
+}
+
+.button-invert, button.button-invert {
+background-image:url('images/right-button.png');
+background-color: black;
+color: white;
+background-size: 100% 50%;
+background-repeat: no-repeat;
+background-position:center;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size:50px;
+text-decoration: none;
+border: none;
+padding: 50px 110px;
+display: block;
+float: left;
+}
+
