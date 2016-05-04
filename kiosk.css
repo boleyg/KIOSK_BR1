@@ -383,8 +383,8 @@ footer {
 				/* large screen, fix live area */
 				.container {
 					margin:0 auto;
-					width:1200px;
-					padding: 0 2%;
+					width:858px;
+					padding: 0;
 				}
 			}
 
