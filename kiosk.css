@@ -601,6 +601,10 @@ div#center.col.s6 {
 	text-align:center;
 }
 
+div#center.col.s4 {
+	text-align:center;
+}
+
 img.icon.inactive {
 	background-color:#979797;
 }
@@ -623,5 +627,14 @@ img.tab {
 
 p.active {
 	color:#BA122B;
+}
+
+h3.schedule {
+	font-size:16px;
+	margin-left:10px;
+	margin-top:0;
+	color:white;
+	border-bottom: none;
+	padding-top:10px;
 }
 
