@@ -772,3 +772,36 @@ h3.nic {
 	margin:0;
 		
 }
+
+h4.directorydescription {
+	padding-left:50px;
+	padding-right:50px;
+}
+
+h4.title {
+	font-weight:600;
+	color:#ba122b;
+	margin-bottom:0;
+	padding-left:50px;
+}
+
+div.office {
+	display:inline;
+}
+
+p.title {
+	margin-top:0;
+	padding-left:50px;
+	
+}
+
+h5.title {
+	margin-top:0;
+	padding-left:50px;
+	font-style:italic;
+	font-size:10px;
+}
+
+div.nicinfo {
+	margin-left:50px;
+}
