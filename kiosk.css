@@ -116,7 +116,10 @@ a:visited {
 }
 
 .icon.student {
-	margin-left:35%;
+	margin-left:30%;
+}
+.icon.one.academics {
+	margin-left:20%;
 }
 .home p {
 	text-align: center;
@@ -199,6 +202,11 @@ footer {
 .col.s12.student {
 	margin-bottom:50px;
 }
+
+p.academics {
+	margin-right:20%;
+}
+
 
 /*CSS Grid*/
 			.row:after {
