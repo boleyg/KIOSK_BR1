@@ -9,14 +9,11 @@ body {
 }
 h1 {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	font-size: 100px;
-	text-align: center;	
+	font-weight: 300;	
 }
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 75px;
 }
 h3 {
 	font-family: 'Poppins', sans-serif;
@@ -44,58 +41,11 @@ p {
 	border-width: 1px;
 	border-color: white;
 	border-radius: 5px;
-	font-size: 50px;
+	font-size: 16px;
 	width: 100%;
 	margin: 0 auto;
 	
 }
-
-.button-pointy, button.button-pointy {
-	background-image:url('images/left-button.png');
-	background-color: black;
-	color: white;
-	background-size: 100% 50%;
-	background-repeat: no-repeat;
-	background-position:center;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-size:50px;
-	text-decoration: none;
-	border: none;
-	padding: 50px 110px;
-	display: block;
-	float: right;
-}
-
-.button-invert, button.button-invert {
-	background-image:url('images/right-button.png');
-	background-color: black;
-	color: white;
-	background-size: 100% 50%;
-	background-repeat: no-repeat;
-	background-position:center;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-size:50px;
-	text-decoration: none;
-	border: none;
-	padding: 50px 110px;
-	display: block;
-	float: left;
-}
-
-div.container > footer> div.row{
-	margin: 0 auto;
-}
-
-.button-invert:hover{
-	opacity: .7;
-}
-
-.button-pointy:hover{
-	opacity: .7;
-}
-
 .icon {
 	background-color: #ba122b;
 	padding: 5px;
@@ -187,74 +137,6 @@ footer {
 .icon.ev {
 	margin: 0 86.8%;
 }
-.calendar {
-	background-color: #f2f2f2;
-	width: 65%;
-	margin: 0 auto 150px auto;
-}
-.calendar.row {
-	border-bottom: solid;
-	border-width: 1px;
-	border-color: black;
-}
-.ce {
-	border-bottom: solid;
-	border-width: 3px;
-	border-color: #ba122b;
-	padding-left: 10px;
-}
-.calendar h3 {
-	margin-top: 3px;
-	margin-bottom: 40px;
-}
-.calendar {
-	border: solid;
-	border-width: 3px;
-	border-color: #ba122b;
-}
-.january {
-	text-align: center;
-	font-size: 24px;
-}
-.january h3 {
-	font-weight: bold;
-}
-.cc {
-	width: 50%;
-	margin-left: 30%;
-	margin-bottom: 10px;
-}
-.cc h3 {
-	margin: 0;
-}
-.days {
-	background-color: #ba122b;
-}
-.days h3 {
-	color: white;
-	margin: 0;
-}
-
-.overlay{
-  position: absolute;
-  top: 50;
-  left: 50;
-  right: 50;
-  bottom: 100;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.attraction {
-	z-index:1000;
-}
-
-img.attractionbrutus {
-	position:relative;
-}
-
 
 /*CSS Grid*/
 			.row:after {
@@ -269,7 +151,7 @@ img.attractionbrutus {
 			}
 
 			@media only screen and (min-width:768px) {
-				/* tablet pxortrait */
+				/* tablet portrait */
 				.gutter > .col {
 					margin-left:2%;
 				}
@@ -280,9 +162,6 @@ img.attractionbrutus {
 	
 				.col.s1 {
 					width:8.333%;
-				}
-				.col.s1b {
-					width: 14%;
 				}
 				.col.s2 {
 					width:16.666%;
@@ -450,7 +329,7 @@ img.attractionbrutus {
 
 .contentlistbox1 {
 		width: 551.43px;
-		height:80px;
+		height:53px;
 		margin: 0px 15px 10px 0px;
 		background-color:#BA122B;
 		border-top-right-radius: 8px;
@@ -461,7 +340,7 @@ img.attractionbrutus {
 	
 .contentlistbox2 {
 		width: 551.43px;
-		height:80px;
+		height:53px;
 		margin: 0px 15px 10px 0px;
 		background-color:#BA122B;
 		opacity: 0.6;
@@ -472,14 +351,14 @@ img.attractionbrutus {
 	}
 	
 h3.boxtext {
-	font-size:25px;
+	font-size:16px;
 	margin-left:10px;
 	margin-top:0;
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
-	
-	}
+}
+
 .scrolls {
 	background-color: #ba122b;
 	height: 35px;
@@ -665,15 +544,9 @@ h3.boxtext {
 div.scroll {
     background-color: white;
     width: 580px;
-<<<<<<< HEAD
-	height: 1000px;
-=======
     height: 300px;
->>>>>>> e826b010a43791e5f6d282080d37f513b2c75a24
     overflow: scroll;
 	direction:rtl;
-	margin-bottom: 50px;
-	
 }
 
 #scroll div{
@@ -687,27 +560,32 @@ div#header.col.s12 {
 
 div#caption.col.s12 {
 	text-align:center;
-	font-size:14px;
+	font-size:40px;
+	line-height:46px;
 	margin:0;
+	
 }
 
 img.header.image {
 	width:100%;
-	margin-bottom:10px;
+	height:100%;
 }
 
 h4.caption {
 	margin:0;
 	color:#BA122B;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
 	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:40px;
+	padding-right:40px;
 	background-color:#D8D8D8;
 }
 
 h5.link {
 	font-style:italic;
-	font-size:12px;
+	font-size:14px;
 	margin-bottom:30px;
 	margin-top:0;
 	background-color:#D8D8D8;
