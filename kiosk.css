@@ -369,7 +369,32 @@ footer {
 				}
 			}
 
-.contentlistbox1 {
+
+			.contentlistbox1 {
+			width: 551.43px;
+			height:53px;
+			margin: 0px 15px 10px 0px;
+			background-color:#BA122B;
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+			margin-bottom:0;
+			text-align:left;
+			}
+
+			.contentlistbox2 {
+			width: 551.43px;
+			height:53px;
+			margin: 0px 15px 10px 0px;
+			background-color:#BA122B;
+			opacity: 0.6;
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+			margin-bottom:0;
+			text-align:left;
+			}
+
+
+.gcontentlistbox1 {
 		width: 250px;
 		height:80px;
 		margin: 0px 15px 10px 0px;
@@ -380,7 +405,7 @@ footer {
 		text-align:left;
 		float: left;
 	}
-	.longcontentlistbox1 {
+	.glongcontentlistbox1 {
 			width: 400px;
 			height:80px;
 			margin: 0px 15px 10px 0px;
@@ -391,7 +416,7 @@ footer {
 			text-align:left;
 		}
 	
-.contentlistbox2 {
+.gcontentlistbox2 {
 		width: 250px;
 		height:80px;
 		margin: 0px 15px 10px 0px;
@@ -404,7 +429,7 @@ footer {
 		float: left;
 	}
 	
-	.longcontentlistbox2 {
+	.glongcontentlistbox2 {
 			width: 400px;
 			height:80px;
 			margin: 0px 15px 10px 0px;
@@ -614,15 +639,12 @@ h3.boxtext {
 		
 	
 
-div.scroll {
-    background-color: white;
-    width: 300px;
-	height: 1000px;
-    overflow: scroll;
+	div.scroll {
+	    background-color: white;
+	    width: 580px;
+	    height: 500px;
+	    overflow: scroll;
 	direction:rtl;
-	margin-bottom: 50px;
-	margin-right: 0px;
-	
 }
 
 div.dirscroll {
