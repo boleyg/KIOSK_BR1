@@ -767,6 +767,16 @@ h3.schedule {
 	padding-top:10px;
 }
 
+h3.article {
+	font-size:16px;
+	line-height:17px;
+	margin-left:10px;
+	margin-top:0;
+	color:white;
+	border-bottom: none;
+	padding-top:10px;
+}
+
 .button-pointy, button.button-pointy {
 background-image:url('images/left-button.png');
 background-color: black;
