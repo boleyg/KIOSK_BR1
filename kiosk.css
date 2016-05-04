@@ -53,6 +53,10 @@ p {
 	padding: 5px;
 	border-radius: 5px;
 }
+
+.icon.single {
+	margin-left:40%;
+}
 .weather {
 	background-color: black;
 	padding-top: 8px;
@@ -109,6 +113,10 @@ a:visited {
 .icon.one {
 	margin: 0 22%;
 }
+
+.icon.student {
+	margin-left:35%;
+}
 .home p {
 	text-align: center;
 	color: #ba122b;
@@ -124,6 +132,11 @@ footer {
 }
 .row.home {
 	margin: 50px 0;
+}
+
+.row.home.academic {
+	margin-left:5%;
+	width:100%;
 }
 .de {
 	background-color: black;
@@ -176,6 +189,12 @@ footer {
 .last {
 	border-bottom: none;
 }
+
+.col.s12.single {
+	margin:0 auto;
+	width:100%;
+}
+
 /*CSS Grid*/
 			.row:after {
 				content:"";
