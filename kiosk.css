@@ -33,7 +33,7 @@ p {
 	border-width: 1px;
 	border-color: white;
 	border-radius: 5px;
-	font-size: 16px;
+	font-size: 50px;
 	width: 100%;
 	margin: 0 auto;
 	
@@ -395,11 +395,6 @@ h3.boxtext {
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
-<<<<<<< HEAD
-}
-
-=======
-	font-weight: 300;
 	
 	}
 .scrolls {
