@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Kiosk Interface</title>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-		
+<title>GRDE328 BR1: KIOSK INTERFACES</title>
 <link rel="stylesheet" href="kiosk.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
 </head>
-
+<div class="container">
 <body>
-	
-	<div class="header">
-		<div class="container">
-		<div class="row">
-			<div class="col s4"><img src="images/weather.svg" class="weather" width="100px"></div>
-			<div class="col s4"><a href="homepage.html"><img src="images/business_brutus.svg" class="brutus" width="100px">BUSINESS</a></div>
-			<div class="col s4"><a href="homepage.html"><img src="images/business_brutus.svg" class="brutus" width="100px">BUSINESS</a></div>
-		</div>
-		</div>
-	</div>
+<header>
+<div class="row">
+<div class="col s1">
+	<img src="images/weather.svg" class="weather" width="60px">
+</div>
+<div class="col s3">
+	<h1>22</h1>
+</div>
+<div class="col s1">
+	<img src="images/business_brutus.svg" class="brutus" width="65px">
+</div>
+<div class="col s3">
+	<h2>BUSINESS</h2>
+</div>
+<div class="col s4">
+	<p>12:00 PM</p>
+	<p>Friday, January 1</p>
+</div>
+</div>
+<div class="clear"></div>
+</header>
+
+
+<div class="example1 scrolls">
+<h3>CAMPUS ALERT: any campus alert will scroll here... CLASS CANCELLATIONS: any class cancellations will scroll here... </h3>
 </div>
 
 
+<div class="de">
+	<div class="row">
+	<div class="col s6">
+		<img src="images/dining.svg" class="icon din" width="45px">
+		<p>DINING</p>
+	</div>
+	<div class="col s6 cal">
+		<img src="images/aca_calendar.svg" class="icon ev" width="45px">
+		<p>CALENDAR</p>
+	</div>
+	</div>
+</div>
+
+<div class="container">
 	<div class="homepage">
-		<div class="container">
-			<div class="row header">
-				<div class="col s12"><a href="homepage.html"><img src="images/business_brutus.svg" class="brutus" width="100px" align=center>BUSINESS</a></div>
+		<div class="row">
+			<div class="col s12">
+				<h1>ACADEMICS</h1>
 			</div>
 		</div>
-				<div class="row">
-					<div class="col s4">
-						<img src="images/athletics.svg" class="icon" width="100px"><p>Sports</p>
-					</div>
-					<div class="col s4">
-						
-					</div>
-					<div class="col s4">
-
-					</div>
+			<div class="row home academic">
+				<div class="col s6">
+					<a href="academics.html"><img src="images/exam.svg" class="icon one academics" width="150px"><p class="academics">Exam Schedule</p></a>
 				</div>
+				<div class="col s6">
+					<a href="studentlife.html"><img src="images/cancellations.svg" class="icon one academics" width="150px"><p class="academics">Class Cancellations/Relocations</p></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="row home">
+				<div class="col s12 single">
+					<a href="directory.html"><img src="images/acaservices.svg" class="icon single" width="150px"><p>Academic Services</p></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
 	
 	</div>
-										
-	<footer>
+
+<footer>
+	<div class="row">
+		<div class="col s12">
+			<a href="homepage.html"><button class="button" type="submit">HOME</button></a>
+		</a>
+	</div>
+</footer>										
 </body>
+</div>

@@ -43,6 +43,7 @@ p {
 	border-width: 1px;
 	border-color: white;
 	border-radius: 5px;
+	font-size: 40px;
 	font-size: 30px;
 	width: 100%;
 	margin: 0 auto;
@@ -52,6 +53,10 @@ p {
 	background-color: #ba122b;
 	padding: 5px;
 	border-radius: 5px;
+}
+
+.icon.single {
+	margin-left:40%;
 }
 .weather {
 	background-color: black;
@@ -109,6 +114,16 @@ a:visited {
 .icon.one {
 	margin: 0 22%;
 }
+
+.icon.student {
+	margin-left:30%;
+}
+.icon.one.academics {
+	margin-left:20%;
+}
+.icon.one.maps {
+	margin-left:30%;
+}
 .home p {
 	text-align: center;
 	color: #ba122b;
@@ -124,6 +139,11 @@ footer {
 }
 .row.home {
 	margin: 50px 0;
+}
+
+.row.home.academic {
+	margin-left:5%;
+	width:100%;
 }
 .de {
 	background-color: black;
@@ -176,6 +196,21 @@ footer {
 .last {
 	border-bottom: none;
 }
+
+.col.s12.single {
+	margin:0 auto;
+	width:100%;
+}
+
+.col.s12.student {
+	margin-bottom:50px;
+}
+
+p.academics {
+	margin-right:20%;
+}
+
+
 /*CSS Grid*/
 			.row:after {
 				content:"";
@@ -363,8 +398,8 @@ footer {
 				/* large screen, fix live area */
 				.container {
 					margin:0 auto;
-					width:1200px;
-					padding: 0 2%;
+					width:858px;
+					padding: 0;
 				}
 			}
 
