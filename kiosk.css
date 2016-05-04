@@ -16,6 +16,7 @@ h1 {
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
+	font-size: 75px;
 }
 h3 {
 	font-family: 'Poppins', sans-serif;
@@ -52,7 +53,7 @@ p {
 	border: none;
 	padding: 50px 110px;
 	display: block;
-	float: left;
+	float: right;
 }
 
 .button-invert, button.button-invert {
@@ -68,6 +69,8 @@ p {
 	text-decoration: none;
 	border: none;
 	padding: 50px 110px;
+	display: block;
+	float: left;
 }
 
 div.container > footer> div.row{
@@ -364,7 +367,7 @@ footer {
 
 .contentlistbox1 {
 		width: 551.43px;
-		height:53px;
+		height:80px;
 		margin: 0px 15px 10px 0px;
 		background-color:#BA122B;
 		border-top-right-radius: 8px;
@@ -375,7 +378,7 @@ footer {
 	
 .contentlistbox2 {
 		width: 551.43px;
-		height:53px;
+		height:80px;
 		margin: 0px 15px 10px 0px;
 		background-color:#BA122B;
 		opacity: 0.6;
@@ -386,7 +389,7 @@ footer {
 	}
 	
 h3.boxtext {
-	font-size:16px;
+	font-size:25px;
 	margin-left:10px;
 	margin-top:0;
 	color:white;
@@ -581,9 +584,11 @@ h3.boxtext {
 div.scroll {
     background-color: white;
     width: 580px;
-    height: 200px;
+	height: 1000px;
     overflow: scroll;
 	direction:rtl;
+	margin-bottom: 50px;
+	
 }
 
 #scroll div{
