@@ -395,6 +395,10 @@ h3.boxtext {
 	color:white;
 	border-bottom: none;
 	padding-top:20px;
+<<<<<<< HEAD
+}
+
+=======
 	font-weight: 300;
 	
 	}
@@ -579,12 +583,15 @@ h3.boxtext {
 	}
 		
 	
-	
 
 div.scroll {
     background-color: white;
     width: 580px;
+<<<<<<< HEAD
 	height: 1000px;
+=======
+    height: 300px;
+>>>>>>> e826b010a43791e5f6d282080d37f513b2c75a24
     overflow: scroll;
 	direction:rtl;
 	margin-bottom: 50px;
