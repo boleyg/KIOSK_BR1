@@ -10,7 +10,7 @@ body {
 h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 150px;
+	font-size: 100px;
 	text-align: center;	
 }
 h2 {
@@ -176,6 +176,54 @@ footer {
 .icon.ev {
 	margin: 0 86.8%;
 }
+.calendar {
+	background-color: #f2f2f2;
+	width: 65%;
+	margin: 0 auto 150px auto;
+}
+.calendar.row {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: black;
+}
+.ce {
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: #ba122b;
+	padding-left: 10px;
+}
+.calendar h3 {
+	margin-top: 3px;
+	margin-bottom: 40px;
+}
+.calendar {
+	border: solid;
+	border-width: 3px;
+	border-color: #ba122b;
+}
+.january {
+	text-align: center;
+	font-size: 24px;
+}
+.january h3 {
+	font-weight: bold;
+}
+.cc {
+	width: 50%;
+	margin-left: 30%;
+	margin-bottom: 10px;
+}
+.cc h3 {
+	margin: 0;
+	color: #ba122b;
+}
+.days {
+	background-color: #ba122b;
+}
+.days h3 {
+	color: white;
+	margin: 0;
+}
 
 /*CSS Grid*/
 			.row:after {
@@ -190,7 +238,7 @@ footer {
 			}
 
 			@media only screen and (min-width:768px) {
-				/* tablet portrait */
+				/* tablet pxortrait */
 				.gutter > .col {
 					margin-left:2%;
 				}
@@ -201,6 +249,9 @@ footer {
 	
 				.col.s1 {
 					width:8.333%;
+				}
+				.col.s1b {
+					width: 14%;
 				}
 				.col.s2 {
 					width:16.666%;
