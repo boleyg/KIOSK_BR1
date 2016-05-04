@@ -659,8 +659,55 @@ div.dirscroll {
 	
 }
 
+<<<<<<< HEAD
 div.homepage > div.col.s6{
 	background-color: white;
+=======
+img.header.image {
+	width:100%;
+	height:100%;
+}
+
+h4.caption {
+	margin:0;
+	color:#BA122B;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#D8D8D8;
+}
+
+h5.link {
+	font-style:italic;
+	font-size:14px;
+	margin-bottom:30px;
+	margin-top:0;
+	background-color:#D8D8D8;
+}
+
+div#center.col.s6 {
+	text-align:center;
+}
+
+div#center.col.s4 {
+	text-align:center;
+}
+
+img.icon.inactive {
+	background-color:#979797;
+}
+
+p.inactive {
+	color:#979797;
+}
+
+img.tab {
+	width:100%;
+	height:50%;
+>>>>>>> 396be41cb7c3384d057f86b5409d26cad4383e98
 }
 
 .push{
@@ -669,5 +716,14 @@ div.homepage > div.col.s6{
 
 #scroll div{
 	direction:ltr;
+}
+
+h3.schedule {
+	font-size:16px;
+	margin-left:10px;
+	margin-top:0;
+	color:white;
+	border-bottom: none;
+	padding-top:10px;
 }
 
