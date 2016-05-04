@@ -659,6 +659,13 @@ div.scroll {
 	direction:rtl;
 }
 
+div#article.scroll {
+	width:820px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#ededed;
+}
+
 #scroll div{
 	direction:ltr;
 }
@@ -682,6 +689,16 @@ div#caption.col.s12 {
 	
 }
 
+div#story.col.s12 {
+	text-align:left;
+	font-size:30px;
+	line-height:36px;
+	margin:10px;
+	padding:10px;
+	
+	
+}
+
 img.header.image {
 	width:100%;
 	height:100%;
@@ -699,6 +716,15 @@ h4.caption {
 	background-color:#D8D8D8;
 }
 
+h4.story {
+	margin:0;
+	color:black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	padding-bottom:10px;
+	padding-right:40px;
+}
+
 h5.link {
 	font-style:italic;
 	font-size:14px;
@@ -709,6 +735,12 @@ h5.link {
 
 div#center.col.s6 {
 	text-align:center;
+}
+
+div#center.col.s3 {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
 }
 
 div#center.col.s4 {
@@ -757,7 +789,7 @@ background-repeat: no-repeat;
 background-position:center;
 font-family: 'Poppins', sans-serif;
 font-weight: 400;
-font-size:50px;
+font-size:40px;
 text-decoration: none;
 border: none;
 padding: 50px 110px;
@@ -769,12 +801,12 @@ float: right;
 background-image:url('images/right-button.png');
 background-color: black;
 color: white;
-background-size: 100% 50%;
+background-size: 80% 50%;
 background-repeat: no-repeat;
 background-position:center;
 font-family: 'Poppins', sans-serif;
 font-weight: 400;
-font-size:50px;
+font-size:40px;
 text-decoration: none;
 border: none;
 padding: 50px 110px;
@@ -833,6 +865,14 @@ h4.title {
 	padding-left:50px;
 }
 
+h4.related {
+	font-weight:600;
+	color:#ba122b;
+	margin-bottom:0;
+	text-align:center;
+	font-size:16px;
+}
+
 div.office {
 	display:inline;
 }
@@ -843,6 +883,14 @@ p.title {
 	
 }
 
+p.article {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:16px;
+	font-weight:300;
+	line-height:24px;
+}
+
 h5.title {
 	margin-top:0;
 	padding-left:50px;
@@ -850,6 +898,30 @@ h5.title {
 	font-size:10px;
 }
 
+h5.name {
+	margin-top:0;
+	font-style:italic;
+	font-size:14px;
+}
+
+h5.next {
+	margin-top:0;
+	margin-bottom:0;
+	font-style:italic;
+	font-size:14px;
+}
+
 div.nicinfo {
 	margin-left:50px;
+}
+
+div.related.images {
+	width:80%;
+	margin:0 auto;
+}
+
+div.next {
+	text-align: right;
+	padding-right:10px;
+	margin-right:10px;
 }
